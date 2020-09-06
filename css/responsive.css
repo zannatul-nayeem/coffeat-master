@@ -1,0 +1,152 @@
+@media(max-width: 449px) {}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width: 450px) and (max-width: 575.98px) {}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #header-part {
+        height: 77vh;
+    }
+    .features-part-content-item-icon>i {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 27px;
+    }
+    #features-part {
+        padding: 40px 0px;
+    }
+    .features-part-content-item-content>h3 {
+        font-size: 18px;
+    }
+    .features-part-content-item-content>p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .features-part-content-item-content>h3::after {
+        width: 88px;
+        bottom: 99px;
+        left: 76px;
+    }
+    #our-app-part {
+        margin: 10px 0px 0px 0px;
+    }
+    .our-app-part-content-area .our-app-part-content-area-title {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .our-app-part-content-area-description {
+        font-size: 13px;
+    }
+    .our-app-part-content-area .our-app-part-content-area-title::after {
+        bottom: 334px;
+        left: 17px;
+    }
+    .our-app-part-image-area>img {
+        width: 252px;
+    }
+    #Testimonial-part {
+        padding: 40px 0px;
+    }
+    .Testimonial-part-content-area-text>h4 {
+        font-size: 16px;
+    }
+    #contact-part {
+        padding: 35px 0px;
+    }
+    .contact-part-top-title {
+        margin-bottom: 55px;
+    }
+    .contact-part-content-itam .inline-main>h3 {
+        font-size: 20px;
+    }
+    .contact-part-content-itam .left-item {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .contact-part-content-itam .inline-main>p {
+        font-size: 14px;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #header-part {
+        height: 73vh;
+    }
+    #features-part {
+        padding: 50px 0px;
+    }
+    .features-part-content-item-content>h3 {
+        font-size: 20px;
+    }
+    .features-part-content-item-content>p {
+        font-size: 15px;
+        margin-top: 14px;
+    }
+    .features-part-content-item-content>h3::after {
+        width: 103px;
+        bottom: 94px;
+        left: 109px;
+    }
+    #our-app-part {
+        margin: 10px 0px 0px 0px;
+    }
+    .our-app-part-content-area .our-app-part-content-area-title {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .our-app-part-content-area-description {
+        font-size: 15px;
+    }
+    .our-app-part-content-area .our-app-part-content-area-title::after {
+        bottom: 337px;
+        left: 16px;
+    }
+    .our-app-part-image-area>img {
+        width: 330px;
+    }
+    #Testimonial-part {
+        padding: 50px 0px;
+    }
+    .Testimonial-part-content-area-text>h4 {
+        font-size: 17px;
+    }
+    #contact-part {
+        padding: 45px 0px;
+    }
+    .contact-part-top-title {
+        margin-bottom: 55px;
+    }
+    .google-map {
+        width: 300px;
+    }
+    .contact-part-content-itam .inline-main>h3 {
+        font-size: 20px;
+    }
+    .contact-part-content-itam .left-item {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .contact-part-content-itam .inline-main>p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1200px) {}

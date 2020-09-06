@@ -1,0 +1,383 @@
+/*Basic Css Start*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+clear {
+    overflow: hidden;
+}
+
+
+/*Basic Css End*/
+
+
+/*header Css start*/
+
+#header-part {
+    background: url(../img/topbanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+#header-part::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(68, 64, 72, 0.3);
+}
+
+.navbar {
+    position: relative;
+    z-index: 100;
+}
+
+.navbar .navbar-brand>img {
+    width: 135px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+    margin-bottom: 9px;
+}
+
+.navbar-light .navbar-toggler-icon>i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.login-sinup-menu>li {
+    padding-right: 10px;
+}
+
+.login-sinup-menu>li>a {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 100;
+    padding-top: 100px;
+}
+
+.banner-content .banner-content-title {
+    font-family: 'Times New Roman', Bold Italic;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.banner-content .banner-content-sub-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #ffffff;
+    line-height: 95px;
+}
+
+.banner-btn {
+    margin-top: 30px;
+    padding: 14px 100px;
+    background: #30788b;
+    color: #ffffff;
+}
+
+.banner-btn:hover {
+    color: #ffffff;
+}
+
+
+/* banner top content */
+
+
+/*features part start*/
+
+#features-part {
+    padding: 90px 0px;
+}
+
+.features-part-content-item-icon>i {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #3f3e3e;
+    line-height: 90px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #30788b;
+}
+
+.features-part-content-item-content {
+    margin-top: 15px;
+}
+
+.features-part-content-item-content>h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.features-part-content-item-content>h3::after {
+    position: absolute;
+    content: '';
+    width: 106px;
+    height: 1px;
+    background: #f57365;
+    bottom: 107px;
+    left: 137px;
+}
+
+.features-part-content-item-content>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 17px;
+}
+
+
+/*features part end*/
+
+
+/*our app part start*/
+
+#our-app-part {
+    margin: 80px 0px 0px 0px;
+}
+
+.our-app-part-image-area {
+    padding-left: 10px;
+}
+
+.our-app-part-image-area>img {
+    width: 400px;
+}
+
+.our-app-part-content-area .our-app-part-content-area-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.our-app-part-content-area .our-app-part-content-area-title::after {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 2px;
+    background: #f57365;
+    bottom: 366px;
+    left: 16px;
+}
+
+.our-app-part-content-area-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+
+/*our app part end*/
+
+
+/*Testimonial part start*/
+
+#Testimonial-part {
+    background: url(../img/bannertwo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 80px 0px;
+}
+
+#Testimonial-part::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 49, 54, 0.8);
+}
+
+.Testimonial-part-content-area .Testimonial-part-content-area-img img {
+    border-radius: 50%;
+    border: 4px solid #738386;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.Testimonial-part-content-area-text>h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    font-style: italic;
+    padding: 10px 116px;
+    color: #dfdbdb;
+    letter-spacing: 1px;
+}
+
+.Testimonial-part-content-area-text>h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #afa9a9;
+    margin-bottom: 40px;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-right: 10px;
+    background: #3f4e51;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.slick-dots li button {
+    color: transparent;
+    border: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    text-align: center;
+    background: transparent;
+}
+
+.slick-dots li.slick-active {
+    background: #ffffff;
+}
+
+
+/*Testimonial part end*/
+
+
+/*Contact part start*/
+
+#contact-part {
+    padding: 60px 0px;
+}
+
+.contact-part-top-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-part-content-itam .left-item {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    background: #2497b6;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+.contact-part-content-itam .inline-main>h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #2497b6;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.contact-part-content-itam .inline-main>p {
+    color: #666666;
+}
+
+.contact-part-content-itam .inline-main {
+    color: #2497b6;
+}
+
+.contact-part-content-itam {
+    border-bottom: 1px solid #e9e6e6;
+}
+.border-bottom-contact:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #000;
+}
+
+/*contact part end*/
+
+
+/*footer part start*/
+
+.copyright>h5 {
+    font-size: 14px;
+    color: #666666;
+}
+
+
+/*footer part end*/
+
+
+/*        font-family: 'Lato', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;*/
